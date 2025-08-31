@@ -1,1 +1,0 @@
-let v=Date.now();document.getElementById('qsImg').src='assets/hero-large.jpg?v='+v;
