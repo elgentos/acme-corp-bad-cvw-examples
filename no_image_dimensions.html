@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Geen width/height • ACME Corp</title>
+<link rel="icon" href="assets/acme-logo.svg">
+<link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<header>
+  <a href="index.html" aria-label="ACME Home"><img src="assets/acme-logo.svg" alt="ACME Corp" width="140" height="42" decoding="async"></a>
+  <nav><a href="index.html">Home</a><a href="no_image_dimensions.html">Geen width/height</a><a href="lazy_hero.html">Hero lazyloaded</a><a href="hero_via_js.html">Hero via JS</a><a href="render_blocking_css.html">Render-blocking CSS</a><a href="poor_inp.html">Slechte INP</a><a href="cls_third_party.html">CLS door third-party</a><a href="client_side_ab_test.html">Client-side A/B test</a><a href="no_speculation_rules.html">Geen speculation rules</a><a href="no_bfcache.html">Geen BFCache</a><a href="no_cache_query_strings.html">Query strings niet uit cache</a></nav>
+</header>
+
+<main>
+  <h1>Geen width/height</h1>
+  <p>Afbeeldingen zonder vaste dimensies veroorzaken layout shift zodra ze laden.</p>
+  <div class="hero" style="display:block;padding:0">
+    <img src="assets/hero-large.jpg" alt="Hero zonder dimensies">
+  </div>
+  <p>Tekst onder de hero die vermoedelijk zal verschuiven tijdens laden…</p>
+</main>
+
+<footer>
+  <div class="badge">ACME Corp – Performance Anti-Patterns Demo</div>
+  <div>Gebruik Chrome DevTools (Performance, Lighthouse, Network) om de problemen te demonstreren.</div>
+</footer>
+</body></html>

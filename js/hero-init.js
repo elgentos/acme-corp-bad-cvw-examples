@@ -1,0 +1,1 @@
+addEventListener('load',()=>{setTimeout(()=>{let h=document.getElementById('hero');let i=new Image();i.src='assets/hero-large.jpg';h.appendChild(i);},1000);});

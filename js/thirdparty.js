@@ -1,0 +1,1 @@
+setTimeout(()=>{let ad=document.createElement('div');ad.style='background:#ffe8d6;padding:24px';ad.innerHTML='<img src=assets/thirdparty-ad.jpg>';document.body.prepend(ad);},2000);

@@ -1,0 +1,1 @@
+let v=Math.random()<.5?'A':'B';addEventListener('DOMContentLoaded',()=>{setTimeout(()=>{if(v==='A'){let d=document.createElement('div');d.className='hero';d.innerHTML='<h1>Variant A</h1>';document.querySelector('main').prepend(d);}else{let p=document.createElement('p');p.textContent='Variant B';document.querySelector('main').prepend(p);}},800);});
