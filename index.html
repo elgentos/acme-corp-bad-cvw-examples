@@ -13,9 +13,10 @@
     <div
       class="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0"
     >
-      <a href="#"
+      <a href="/"
         ><img
-          src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
+          src="images/logo.svg"
+          class="h-6"
           alt="Logo image" /></a
       ><button
         class="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"
@@ -32,21 +33,58 @@
       <a
         href="/"
         class="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-        >Home</a
+        >Width & Height</a
       ><a
-        href="bfcache-disabled/"
+        href="/"
         class="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-        >BF Cache Disabled</a
+        >CSS</a
       ><a
-        href="#"
+        href="/query-strings-not-cached/"
         class="block py-3 text-md first:pt-7 lg:px-4 lg:py-2 lg:text-base first:lg:pt-2"
-        >Contact Us</a
+        ></a
       >
+      <div>
+            <button
+                    class="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
+            >
+          <span>CLS Issues</span
+          ><span
+            ><svg
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-width="0"
+                    viewBox="0 0 15 15"
+                    height="1em"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z"
+                      fill="currentColor"
+              ></path></svg
+            ></span>
+            </button>
+            <nav
+                    class="bg-background-primary lg:absolute lg:z-50 lg:border lg:border-border-primary lg:p-2 lg:[--y-close:25%]"
+                    style="visibility:hidden;opacity:var(--opacity-close, 0);display:none;transform:translateY(var(--y-close, 0%))"
+            >
+                <a
+                        href="/cls-affected-by-third-party-js/"
+                        class="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
+                >Third party JS</a
+                ><a
+                    href="/client-side-ab-test/"
+                    class="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
+            >Client side AB Test</a>
+            </nav>
+    </div>
       <div>
         <button
           class="flex w-full items-center justify-between gap-2 py-3 text-left text-md lg:flex-none lg:justify-start lg:px-4 lg:py-2 lg:text-base"
         >
-          <span>More Links</span
+          <span>Optimizations</span
           ><span
             ><svg
               stroke="currentColor"
@@ -70,17 +108,17 @@
           style="visibility:hidden;opacity:var(--opacity-close, 0);display:none;transform:translateY(var(--y-close, 0%))"
         >
           <a
-            href="#"
+            href="/bfcache-disabled/"
             class="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
-            >Example One</a
+            >BF Cache Disabled</a
+          ><a
+            href="/no-speculation-rules/"
+            class="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
+            >Speculation rules</a
           ><a
             href="#"
             class="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
-            >Example Two</a
-          ><a
-            href="#"
-            class="block py-3 pl-[5%] text-md lg:px-4 lg:py-2 lg:text-base"
-            >Example Three</a
+            ></a
           >
         </nav>
       </div>
@@ -91,12 +129,12 @@
           class="rounded-button inline-flex gap-3 items-center justify-center whitespace-nowrap transition-all duration-200 ease-in-out disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none border border-border-primary text-text-primary bg-background-primary px-5 py-2 w-full"
           title="Join"
         >
-          Join</button
+          RUMVision</button
         ><button
           class="rounded-button inline-flex gap-3 items-center justify-center whitespace-nowrap transition-all duration-200 ease-in-out disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-none border border-border-primary bg-background-alternative text-text-alternative px-5 py-2 w-full"
           title="Learn"
         >
-          Learn
+          Elgentos
         </button>
       </div>
     </div>
